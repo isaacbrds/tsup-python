@@ -14,5 +14,5 @@ resultado = quantidade_apos_abastecimento - valor_combustivel
 
 porcentagem = float(quantidade_apos_abastecimento - valor_combustivel)/100
 
-print(f'O posto ficou com {resultado} no tanque do posto')
+print(f'O posto ficou com {resultado} no tanque do posto após retirada de {valor_combustivel} litros')
 print(f'O posto ficou com {porcentagem*100:.0f}% de sua capacidade ')
